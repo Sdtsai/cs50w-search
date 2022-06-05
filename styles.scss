@@ -1,0 +1,80 @@
+$primary-text-color: #202124;
+@viewport{
+  width: device-width;
+  zoom:1.0;
+}
+body{
+  font-family: 'Roboto', arial, sans-serif;
+}
+h1{
+  font-size: 48pt;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+td{
+  padding-left: 40px;
+  padding-right: auto;
+  padding-bottom: 5px;
+}
+.header{
+  text-align:right;
+}
+.header-left{
+  text-align:left;
+}
+.second-header{
+  margin-left: 40px;
+}
+.search-form{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchbar{
+  border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	display: block;
+  margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+  padding: 10px;
+  width: 500px;
+}
+.logo-sub{
+  color: #4285f4;
+  position: relative;
+  left: 110px;
+  top: -18px;
+}
+.searchbar_adv{
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  width: 450px;
+}
+.blue-button{
+  background-color: #4d90fe;
+  color:white;
+  float: right;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.divider{
+  border-bottom: 1px solid #ebebeb;
+}
+.text-field{
+  text-align: left;
+}
